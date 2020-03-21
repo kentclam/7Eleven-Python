@@ -42,7 +42,7 @@ PRICE_URL = os.getenv('PRICE_URL',settings.PRICE_URL)
 DEVICE_NAME = os.getenv('DEVICE_NAME', settings.DEVICE_NAME)
 OS_VERSION = os.getenv('OS_VERSION', settings.OS_VERSION)
 APP_VERSION = os.getenv('APP_VERSION', settings.APP_VERSION)
-USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0"
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0 Chrome/80.0.3987.0"
 
 def getKey():
     # Found in file au.com.seveneleven.y.h
